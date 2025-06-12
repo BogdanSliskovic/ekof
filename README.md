@@ -15,3 +15,5 @@ Pristup:
 Za godine za koje postoje podaci (2010 - 2023) za podsektore, izracunao sam udeo svakog podsektora u svakoj godini u svakoj delatnosti, onda sam iz tog skupa podataka izracunao prosek i standardnu devijaciju udela u odnosu na godine. Za prva dva podsektora generisao random brojeve iz uniformne raspodele `(max(0, mean - std), min(1, mean + std))`, a poslednji podsektor sam izracunao kao `s13 - s1311 - s1313`. 
 
 Ceo kod u [fajlu](./resenje/final.py) 
+
+Svi brojevi korisceni u ovom projektu su izmisljeni i sluze iskljucivo u ilustrativne i edukativne svrhe. 
